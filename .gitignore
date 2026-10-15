@@ -1,0 +1,18 @@
+# raw data and processed arrays (never commit data)
+*.csv
+*.zip
+*.npz
+
+# trained models
+*.joblib
+*.keras
+*.h5
+*.pkl
+
+# experiment logs
+wandb/
+
+# notebook and Python clutter
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
